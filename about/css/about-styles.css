@@ -115,7 +115,7 @@ section#about-section figcaption p{
     }
 
     section#about-section figcaption{
-        text-align: left;
+        text-align: justify;
         padding: .1rem;
     }
 
