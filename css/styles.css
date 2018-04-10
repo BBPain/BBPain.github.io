@@ -1,0 +1,139 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: rgba(125, 134, 134, .2);
+}
+
+/* nav */
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: right;
+    z-index: 100;
+    background-image: url('../img/computer-1209641_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+#menu-list {
+    list-style: none;
+}
+
+li {
+    padding: .7rem;
+    background-color: rgba(75, 143, 139, .7);
+    display: inline-block;
+    padding: 10px;
+}
+
+nav#main-nav ul li:hover {
+    background-color: rgba(125, 134, 134, .2);
+    transition: background 1s;
+}
+
+nav#main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+#hidden-menu {
+    display: none;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: rgb(34, 211, 137);
+}
+
+#hidden-menu p {
+    display: inline-block;
+}
+
+#nav-btn {
+    width: 40px;
+    height: 40px;
+    color: rgb(236, 234, 234);
+    padding-left: 10px;
+    float: right;
+}
+
+#hidden-menu:hover {
+    cursor: pointer;
+}
+
+/* main container */
+
+#main-container {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background-color: #474749;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+/* media */
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    #hidden-menu {
+        display: inline-block;
+    }
+    li {
+        text-align: center;
+        display: block;
+    }
+    #menu-list {
+        display: none;
+    }
+}
+
+@media (max-height:500px){
+    html{
+        height: 100%;
+    }
+    footer{
+        position: initial;
+    }
+}
+
+@media (max-height: 800px) and (max-width: 576px){
+
+    footer{
+        position: initial;
+    }
+}

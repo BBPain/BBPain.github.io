@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url('../img/pexels-photo-326424.jpeg');
+}
+
+/* main header */
+
+header#main-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+header#main-header h1{
+    font-size: 4rem;
+}
+
+header#main-header h2{
+    font-size: 2.5rem;
+}
+
+header#main-header h2 span.green{
+    color: #34d7b6;
+}
+
+header#main-header h2 span.blue{
+    color: rgb(55, 100, 184);
+
+}
+
+/* media */
+
+@media (max-width: 1200px){
+    /* header#main-header{
+        width: 51%; 
+    } */
+}
+
+@media (max-width: 992px){
+
+    header#main-header{
+        width: 51%; 
+    }
+
+    header#main-header h1{
+        font-size: 3rem;
+    }
+
+    header#main-header h2{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    header#main-header{
+        width: 70%; 
+    }
+
+    header#main-header h1{
+        font-size: 2.5rem;
+    }
+
+    header#main-header h2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px){
+    header#main-header{
+        width: 90%; 
+    }
+
+    header#main-header h1{
+        font-size: 2rem;
+    }
+
+    header#main-header h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-height: 800px) and (max-width: 576px){
+    footer{
+        position: absolute;
+    }
+}

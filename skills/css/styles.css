@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    z-index: 200;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+}
+
+#main-container{
+    background-image: url('../../img/skills.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.active{
+    background-color: rgba(125, 134, 134, .2);
+}
+
+/* nav */
+
+
+#main-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    background-image: url('/img/computer-1209641_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    opacity: .9;
+}
+
+#menu-list{
+    list-style: none;
+}
+
+li{
+    padding: .7rem;
+    background-color: rgba(75, 143, 139, .7);
+    display: inline-block;
+    padding: 10px;
+}
+
+#main-nav ul li:hover{
+    background-color: rgba(125, 134, 134, .2);
+    transition: background 1s;
+}
+
+#main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+#hidden-menu{
+    display: none;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: rgb(34, 211, 137);
+}
+
+#hidden-menu p{
+    display: inline-block;
+}
+
+#nav-btn{
+    width: 40px;
+    height: 40px;
+    color: rgb(236, 234, 234);
+    padding-left: 10px;
+    float: right;
+}
+
+#hidden-menu:hover{
+    cursor: pointer;
+}
+
+/* right container */
+
+/* #main-container{
+
+} */
+
+/* header */
+
+#skills-header{
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+
+/* skills-section */
+
+#skills-section article{
+    padding: 3rem;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+#skills-section article h3{
+    font-size: 2rem;
+    background-color: rgba(197, 162, 132, .7);
+}
+
+#skills-section article .icon-container{
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px;
+    font-size: 4.5rem;
+}
+
+/* media */
+
+@media (max-width: 992px){
+
+    header{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 768px){
+}
+
+@media (max-width: 576px){
+
+    footer{
+        position: initial;
+    }
+/* 
+    #main-container{
+    height: 120vh;
+} */
+
+    #main-nav{
+        text-align: right;
+    }
+
+/*     #main-container{} */
+
+    #nav-btn{
+        display: block;
+        font-size: 3rem;
+    }
+
+    li{
+        text-align: center;
+        display: block;
+    }
+
+    #menu-list{
+        display: none;
+    }
+
+    #about-header h2{
+        font-size: 2rem;
+    }
+
+    section#about-section figcaption p{
+        font-size: .9rem;
+    }
+
+    #hidden-menu{
+        display: inline-block;
+    }
+
+    #skills-section article{
+        padding: 3rem;
+        width: 100%;
+    }
+
+    #skills-section article .icon-container{
+        background-color: rgba(255, 255, 255, .7);
+        padding: 10px;
+        font-size: 3rem;
+    }
+}

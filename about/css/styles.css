@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 1rem;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    z-index: 200;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+}
+
+#main-container{
+    background-image: url('../../img/ukulele.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.active{
+    background-color: rgba(125, 134, 134, .2);
+}
+
+/* nav */
+
+
+#main-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    background-image: url('/img/computer-1209641_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    opacity: .9;
+}
+
+#menu-list{
+    list-style: none;
+}
+
+li{
+    padding: .7rem;
+    background-color: rgba(75, 143, 139, .7);
+    display: inline-block;
+    padding: 10px;
+}
+
+#main-nav ul li:hover{
+    background-color: rgba(125, 134, 134, .2);
+    transition: background 1s;
+}
+
+#main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+#hidden-menu{
+    display: none;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: rgb(34, 211, 137);
+}
+
+#hidden-menu p{
+    display: inline-block;
+}
+
+#nav-btn{
+    width: 40px;
+    height: 40px;
+    color: rgb(236, 234, 234);
+    padding-left: 10px;
+    float: right;
+}
+
+#hidden-menu:hover{
+    cursor: pointer;
+}
+
+/* right container */
+
+#main-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* right container */
+
+/* header */
+
+#about-header h2{
+    font-size: 3rem;
+}
+
+section#about-section figcaption {
+    background-color: rgba(255, 255, 255, .7);
+    text-align: justify;
+    padding: 1rem;
+}
+
+section#about-section figure{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+section#about-section figure img{
+    height: 350px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+}
+
+
+section#about-section figcaption p::first-letter{
+    font-weight: 700;
+    color: rgb(158, 55, 55);
+}
+
+
+section#about-section figcaption p{
+    font-size: 1rem;
+    padding: .2rem;
+}
+
+@media (min-width: 992px){
+    #about-header{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px){
+
+    section#about-section figure img{
+        height: 300px;
+    }
+
+    section#about-section figcaption p{
+        font-size: 1rem;
+        padding: .1rem;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    section#about-section figure img{
+        height: 250px;
+    }
+
+    section#about-section figcaption p{
+        font-size: 1rem;
+        padding: .07rem;
+    }
+
+    ul #menu-list{
+        display: block;
+    }
+    
+}
+
+@media (max-width: 576px){
+
+    #main-nav{
+        text-align: right;
+    }
+
+    #nav-btn{
+        display: block;
+        font-size: 3rem;
+    }
+
+    li{
+        text-align: center;
+        display: block;
+    }
+
+    #menu-list{
+        display: none;
+    }
+
+    #about-header h2{
+        font-size: 1.8rem;
+    }
+
+    section#about-section figure{
+        padding: .5rem;
+    }
+
+    section#about-section figure img{
+        height: 220px;
+    }
+
+    section#about-section figcaption p{
+        font-size: .9rem;
+    }
+
+    #hidden-menu{
+        display: inline-block;
+    }
+}
+
+
+/* @media (max-width: 992px){
+}
+@media (max-width: 768px){
+    header#main-header h1{
+        font-size: 2.5rem;
+    }
+    #main-header h2{
+        font-size: 2rem;
+    }
+    ul #menu-list{
+        display: block;
+    }
+}
+@media (max-width: 576px){
+    #hidden-menu{
+        display: inline-block;
+    }
+    li{
+        text-align: center;
+        display: block;
+    }
+    #menu-list{
+        display: none;
+    }
+} */
