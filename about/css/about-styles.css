@@ -2,15 +2,6 @@ body{
     background-image: url('../../img/ukulele.jpeg');
 }
 
-section#about-section{
-    padding: 3.5rem 1rem 0 1rem;
-}
-
-section#about-section #about-header{
-    font-size: 2rem;
-    padding: .5rem;
-}
-
 section#about-section figcaption {
     background-color: rgba(255, 255, 255, .7);
     text-align: center;
