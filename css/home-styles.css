@@ -1,9 +1,13 @@
-html{
+/* html{
     height: 100%;
-}
+} */
 
-body{
+/* body{
     background-image: url('../img/pexels-photo-326424.jpeg');
+} */
+
+.wrapper{
+    background-image: url('/img/pexels-photo-326424.jpeg');
 }
 
 /* main header */

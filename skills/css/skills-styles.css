@@ -1,6 +1,12 @@
-#main-container {
+/* #main-container {
     background-image: url('../../img/skills.jpeg');
-    height: 100vh;
+} */
+
+.wrapper{
+    background-image: url('../../img/skills.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #skills-header {

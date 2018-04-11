@@ -1,4 +1,8 @@
-body{
+/* body{
+    background-image: url('../../img/ukulele.jpeg');
+} */
+
+.wrapper{
     background-image: url('../../img/ukulele.jpeg');
 }
 
