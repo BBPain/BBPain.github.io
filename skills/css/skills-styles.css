@@ -4,9 +4,6 @@
 
 .wrapper{
     background-image: url('../../img/skills.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 #skills-header {
@@ -71,5 +68,15 @@
 
     #skills-section article{
         padding-top: 1rem;
+    }
+}
+
+@media (max-height:600px){
+    footer{
+        /* position: initial; */
+    }
+
+    .wrapper{
+        height: 110%;
     }
 }

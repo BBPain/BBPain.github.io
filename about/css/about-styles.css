@@ -4,6 +4,7 @@
 
 .wrapper{
     background-image: url('../../img/ukulele.jpeg');
+    /* background-attachment: local; */
 }
 
 section#about-section figcaption {
@@ -124,8 +125,12 @@ section#about-section figcaption p{
     }
 }
 
-@media (max-height:500px){
+@media (max-height:600px){
     footer{
         position: initial;
+    }
+
+    .wrapper{
+        height: 130%;
     }
 }
