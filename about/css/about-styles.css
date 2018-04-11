@@ -128,9 +128,10 @@ section#about-section figcaption p{
 
 @media (max-height:600px){
     footer{
+        position: initial;
     }
 
     .wrapper{
-        height: 100%;
+        /* height: 100%; */
     }
 }
