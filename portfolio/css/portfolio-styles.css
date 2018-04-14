@@ -1,0 +1,21 @@
+.wrapper{
+    background-image: url('../../img/pexels-photo-699782.jpeg');
+}
+
+article{
+    padding: 2rem;
+    display: flex;
+}
+
+article figure{
+    padding: .5rem;
+}
+
+article figure img{
+    height: 170px;
+}
+
+article figure figcaption{
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
