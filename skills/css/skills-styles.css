@@ -26,6 +26,10 @@
     font-size: 4.5rem;
 }
 
+#skills-section article .icon-container p{
+    font-size: 3rem;
+}
+
 /* footer */
 
 
@@ -68,5 +72,9 @@
 
     #skills-section article{
         padding-top: 1rem;
+    }
+
+    #skills-section article .icon-container p{
+        font-size: 1.5rem;
     }
 }

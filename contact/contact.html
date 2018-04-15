@@ -5,32 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Grzegorz Bors</title>
+    <title>Kontakt</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Titillium+Web:400,700&amp;subset=latin-ext" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/contact-styles.css">
 </head>
 
 <body>
-    <div id="wrapper">
-        <div id="left-main-container">
-            <nav id="main-nav">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about/about.html">O mnie</a></li>
-                    <li><a href="../skills/skills.html"> Umiejętności</a></li>
-                    <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
-                </ul>
-            </nav>
+
+    <nav id="main-nav">
+        <div id="hidden-menu">
+            <p>Menu</p>
+            <i class="fas fa-bars" id="nav-btn"></i>
         </div>
-        <div id="right-main-container">
-            <header id="main-header">
-                    <h1>Grzegorz Bors</h1>
-                    <h2><span class="orange">Front</span> <span class="green">End</span> Developer</h2>
-            </header>
-        </div>
+        <ul id="menu-list">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../about/about.html">O mnie</a>
+            </li>
+            <li>
+                <a href="../skills/skills.html"> Umiejętności</a>
+            </li>
+            <li class>
+                <a href="../portfolio/portfolio.html">Portfolio</a>
+            </li>
+            <li class="active">
+                <a href="contact.html">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <main id="main-container">
+            <section id="contact-section">
+                <header id="contact-header">
+                    <h2>Dane kontaktowe</h2>
+                </header>
+                <article>
+                    <address>
+                        <p>Zainteresowała Cię moja osoba?</p>
+                        <p>Mój adres kontaktowy to <strong><a href="mailto:grzegorz.bors@o2.pl">Grzegorz.Bors@o2.pl</a></strong></p>
+                    </address>
+                </article>
+            </section>
+        </main>
+
     </div>
+    <footer>
+        <p>Grzegorz Bors &copy; 2018</p>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

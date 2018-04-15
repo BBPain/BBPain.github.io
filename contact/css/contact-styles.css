@@ -1,0 +1,43 @@
+.wrapper {
+    background-image: url('../../img/contact.jpg');
+}
+
+address {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(75, 143, 139);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+address a {
+    text-decoration: none;
+    color: rgb(163, 26, 56)
+}
+
+address a:hover {
+    color: rgb(190, 199, 61);
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+    address {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        font-size: 1rem;
+    }
+
+    address {
+        font-size: 1rem;
+    }
+}
