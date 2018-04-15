@@ -143,9 +143,9 @@ footer {
     }
 }
 
-@media (max-height: 800px) and (max-width: 576px){
+/* @media (max-height: 800px) and (max-width: 576px){
 
     footer{
         position: initial;
     }
-}
+} */
