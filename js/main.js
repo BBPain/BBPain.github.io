@@ -12,7 +12,9 @@ $(document).ready(function () {
             $('#menu-list').removeAttr('style');
         }
 
-        let docHeight = $(document).height();
-        $('.wrapper').css('height', docHeight);
+/*         let docHeight = $(document).height();
+        $('.wrapper').css('height', docHeight); */
+
+        // $('footer').css('top', docHeight+'px');
     });
 });

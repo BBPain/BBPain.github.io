@@ -3,16 +3,17 @@
 }
 
 article{
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
 }
 
 article figure{
     padding: .5rem;
+
 }
 
 article figure img{
-    height: 170px;
+    height: 150px;
 }
 
 article figure figcaption{

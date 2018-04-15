@@ -1,11 +1,5 @@
-/* body{
-    background-image: url('../../img/ukulele.jpeg');
-} */
-
 .wrapper{
     background-image: url('../../img/ukulele.jpeg');
-    /* background-attachment: local; */
-    position: relative;
 }
 
 section#about-section figcaption {
@@ -98,7 +92,7 @@ section#about-section figcaption p{
     }
 
     section#about-section figure img{
-        height: 300px;
+        height: 270px;
     }
 }
 
@@ -129,9 +123,5 @@ section#about-section figcaption p{
 @media (max-height:600px){
     footer{
         position: initial;
-    }
-
-    .wrapper{
-        /* height: 100%; */
     }
 }
