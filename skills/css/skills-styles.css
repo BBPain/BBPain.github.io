@@ -70,13 +70,3 @@
         padding-top: 1rem;
     }
 }
-
-@media (max-height:600px){
-    footer{
-        /* position: initial; */
-    }
-
-    .wrapper{
-        /* height: 110%; */
-    }
-}

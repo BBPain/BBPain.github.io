@@ -3,20 +3,66 @@
 }
 
 article{
-    padding: 4rem;
+    padding: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 article figure{
-    padding: .5rem;
-
+    padding: 2rem;
 }
 
 article figure img{
-    height: 150px;
+    height: 200px;
 }
 
 article figure figcaption{
+    padding: .5rem;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 10px;
+}
+
+h3, h4, figcaption p, figcaption a{
+    padding: .1rem;
+}
+
+figcaption a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: lightseagreen;
+    transition: color 1s;
+}
+
+figcaption a:hover{
+    color: #c49237;
+}
+
+@media (max-width: 992px) {
+    
+    header{
+        font-size: 1.5rem;
+    }
+    article{
+        flex-flow: column;
+    }
+
+    article figure{
+        padding: 1rem;
+    }
+
+
+    figcaption a{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        font-size: 1rem;
+    }
+    article figure{
+        padding: .5rem;
+    }
+
 }
